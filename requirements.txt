@@ -1,0 +1,17 @@
+# Historical training stack. Install torch/torchvision separately; see README.
+numpy==1.26.4
+scipy==1.13.1
+h5py
+Pillow
+tqdm
+tabulate
+addict==2.4.0
+yapf==0.32.0
+wandb
+timm==0.4.12
+opencv-python==4.5.2.54
+supervision==0.6.0
+pycocotools==2.0.7
+transformers==4.29.2
+matplotlib
+termcolor

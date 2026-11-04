@@ -1,0 +1,43 @@
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+server_a.env
+*.pem
+*.key
+*.pub
+.ssh/
+# Python, native extensions, build products
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.pyd
+*.o
+*.egg
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+# Data, model weights, generated results
+data/
+weights/
+outputs/
+logs/
+wandb/
+tmp/
+*.pth
+*.pt
+*.pytorch
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.jsonl
+*.log
+# Editor state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
